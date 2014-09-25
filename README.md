@@ -118,13 +118,13 @@ Thanks in advance and we hope that you like PM2!
 The latest PM2 stable version is installable via NPM:
 
 ```bash
-$ npm install pm2@latest -g
+$ sudo npm install git://github.com/cjy37/pm2#master -g
 ```
 
 If the above fails use:
 
 ```bash
-$ npm install git://github.com/Unitech/pm2#master -g
+$ sudo npm install git://github.com/cjy37/pm2#master -g --unsafe-perm
 ```
 
 We recommend Node.JS 0.11.13 for handling the cluster_mode (if you add the -i options to enable scaling and reload).
